@@ -1,0 +1,52 @@
+[
+  {
+    "role": "Research and Teaching Assistant",
+    "organisation": "Pennsylvania State University",
+    "startDate": "Jan, 2023",
+    "endDate": "Dec, 2024",
+    "experiences": [
+      "Preprocessed X-ray images and fine-tuned deep learning models for pneumonia detection.",
+      "Optimized an Image Segmentation website for better performance.",
+      "Assisted students with assignments, proctoring, and grading."
+    ],
+    "imageSrc": "assets/history/pennstateuniversity.png"
+  },
+  {
+    "role": "Student Worker Data Analyst",
+    "organisation": "Pennsylvania State University",
+    "startDate": "Jan, 2023",
+    "endDate": "Dec, 2024",
+    "experiences": [
+      "Managed student records and improved mailroom database efficiency.",
+      "Built ETL pipelines and automated inventory tracking.",
+      "Developed Power BI dashboards for business insights."
+    ],
+    "imageSrc": "assets/history/pennstateuniversity.png"
+  },
+  {
+    "role": "Software Engineer",
+    "organisation": "Cognizant Technology Solutions",
+    "startDate": "Nov, 2020",
+    "endDate": "Dec, 2022",
+    "experiences": [
+      "Optimized ETL pipelines for election data processing.",
+      "Enhanced RESTful API integrations for real-time data access.",
+      "Migrated multimedia data to a Knowledge Graph system.",
+      "Developed secure RESTful APIs for pension management.",
+      "Reduced cloud infrastructure costs with AWS microservices."
+    ],
+    "imageSrc": "assets/history/cognizant.png"
+  },
+  {
+    "role": "Machine Learning Intern",
+    "organisation": "Smartbridge",
+    "startDate": "Apr, 2019",
+    "endDate": "Jun, 2019",
+    "experiences": [
+      "Built predictive models for income forecasting.",
+      "Implemented recommendation algorithms for student engagement.",
+      "Created Tableau dashboards for marketing analytics."
+    ],
+    "imageSrc": "assets/history/smartbridge.jpeg"
+  }
+]

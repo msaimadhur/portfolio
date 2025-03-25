@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Vision Transformers & UNet for Spine Segmentation",
+    "imageSrc": "/assets/projects/spine.jpg",
+    "description": "Developed a deep learning model for CT-based spine segmentation and 3D bone reconstruction.",
+    "skills": ["Python", "SegFormer", "UNet", "Pytorch"],
+    "source": "https://github.com/msaimadhur/vit-unet-3d-bone-paper"
+  },
+  {
+    "title": "Deep Learning for Protein Structure Prediction",
+    "imageSrc": "/assets/projects/protein.jpg",
+    "description": "Implemented a Bi-LSTM model for protein secondary structure prediction using bioinformatics data.",
+    "skills": ["Python", "Bi-LSTM", "EDA", "Bioinformatics"],
+    "source": "https://github.com/msaimadhur/dl-bilstm-pssp"
+  },
+  {
+    "title": "Context-Based Sentiment Analysis",
+    "imageSrc": "/assets/projects/sentiment.png",
+    "description": "Explored NLP techniques to enhance sentiment prediction using contextual cues.",
+    "skills": ["NLP", "Deep Learning", "Sentiment Analysis"],
+    "source": "https://github.com/msaimadhur/nlp-lit-rev-context-sentiment"
+  },
+  {
+    "title": "Shared Scrum Board",
+    "imageSrc": "/assets/projects/scrum.jpg",
+    "description": "Built a Scrum project management system with Spring Boot and Vaadin.",
+    "skills": ["Spring Boot", "MySQL", "Java", "Vaadin"],
+    "source": "https://github.com/msaimadhur/shared-scrum-board-aos"
+  },
+  {
+    "title": "Pension Management System",
+    "imageSrc": "/assets/projects/pension.png",
+    "description": "Developed a secure pension management system with RESTful APIs and cloud integration.",
+    "skills": ["Spring Boot", "AWS", "REST API", "MySQL"],
+    "source": "https://github.com/msaimadhur/pension-management-system"
+  },
+  {
+    "title": "SMT Solver Domain-Specific Benchmarking",
+    "imageSrc": "/assets/projects/smt.png",
+    "description": "A comprehensive analysis of SMT solver performance across various domains, highlighting strengths and weaknesses.",
+    "skills": ["SMT Solvers", "Benchmarking", "Formal Methods"],
+    "source": "https://github.com/msaimadhur/smt-solver-benchmarking-paper"
+  }
+]

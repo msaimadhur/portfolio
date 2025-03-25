@@ -1,0 +1,80 @@
+@import "../../vars.css";
+
+.wrapper {
+  position: relative;
+  margin: 60px auto;
+  padding: 0 5%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.carouselWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.projectScroll {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 10px 0;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  width: 100%;
+}
+
+.projectScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.navButton {
+  background: none;
+  border: none;
+  color: var(--color-text);
+  font-size: 32px;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navButton:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .carouselWrapper {
+    gap: 10px;
+    padding: 0;
+  }
+
+  .projectScroll {
+    gap: 12px;
+  }
+
+  .navButton {
+    font-size: 24px;
+    padding: 6px;
+  }
+}

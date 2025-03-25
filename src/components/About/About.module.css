@@ -1,0 +1,181 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: stretch;
+  flex: 1;
+  width: 100%;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutItem p {
+  font-size: 25px;
+}
+
+.educationItems {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--color-text);
+  margin-bottom: 40px;
+  margin-top: 80px;
+  align-items: center;
+  width: 300px; /* fixed width instead of flex */
+  flex-shrink: 0;
+}
+
+.educationItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 280px;
+  transition: 0.4s;
+  box-sizing: border-box;
+}
+
+.educationItem:hover {
+  background-size: 100% 100%;
+}
+
+.educationLogo {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.educationItem h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.educationItem p {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.aboutImage {
+  width: 35%;
+}
+
+/* ✅ Responsive Design */
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding: 40px 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .aboutItem {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .aboutItem img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .educationItems {
+    align-items: center;
+    width: 100%;
+  }
+
+  .educationItem {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .educationLogo {
+    width: 50px;
+    height: 50px;
+  }
+}
