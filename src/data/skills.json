@@ -10,6 +10,7 @@
   { "title": "Bootstrap", "imageSrc": "si:SiBootstrap", "category": "Frameworks" },
   { "title": "ReactJS", "imageSrc": "si:SiReact", "category": "Frameworks" },
   { "title": "WordPress", "imageSrc": "si:SiWordpress", "category": "Frameworks" },
+  { "title": "Agile-Scrum", "imageSrc": "fa:FaProjectDiagram", "category": "Frameworks" },
 
   { "title": "MySQL", "imageSrc": "si:SiMysql", "category": "Databases" },
   { "title": "PostgreSQL", "imageSrc": "si:SiPostgresql", "category": "Databases" },
@@ -23,6 +24,7 @@
   { "title": "AWS", "imageSrc": "fa:FaAws", "category": "Cloud" },
   { "title": "Azure", "imageSrc": "fa:FaMicrosoft", "category": "Cloud" },
   { "title": "GCP", "imageSrc": "si:SiGooglecloud", "category": "Cloud" },
+  { "title": "Databricks", "imageSrc": "fa:FaCubes", "category": "Cloud" },
 
   { "title": "Docker", "imageSrc": "fa:FaDocker", "category": "DevOps" },
   { "title": "Airflow", "imageSrc": "fa:FaCloud", "category": "DevOps" },
@@ -36,12 +38,8 @@
   { "title": "VS Code", "imageSrc": "fa:FaCode", "category": "Tools" },
   { "title": "Postman", "imageSrc": "si:SiPostman", "category": "Tools" },
   { "title": "Google Workspace", "imageSrc": "si:SiGoogle", "category": "Tools" },
-  { "title": "MS Office", "imageSrc": "fa:FaFileAlt", "category": "Tools" },
+  { "title": "Microsoft 365", "imageSrc": "fa:FaMicrosoft", "category": "Tools" },
   { "title": "MailMerge", "imageSrc": "fa:FaEnvelopeOpenText", "category": "Tools" },
-  { "title": "Agile-Scrum", "imageSrc": "fa:FaProjectDiagram", "category": "Tools" },
-  { "title": "SSRS", "imageSrc": "fa:FaChartBar", "category": "Tools" },
-  { "title": "SSIS", "imageSrc": "fa:FaNetworkWired", "category": "Tools" },
-  { "title": "Databricks", "imageSrc": "fa:FaCubes", "category": "Tools" },
 
   { "title": "Power BI", "imageSrc": "bi:BiBarChartAlt2", "category": "Business Intelligence" },
   { "title": "Tableau", "imageSrc": "si:SiTableau", "category": "Business Intelligence" },
@@ -50,12 +48,14 @@
   { "title": "PowerQuery", "imageSrc": "fa:FaFilter", "category": "Business Intelligence" },
   { "title": "DAX", "imageSrc": "fa:FaCalculator", "category": "Business Intelligence" },
   { "title": "MS Excel", "imageSrc": "fa:FaFileExcel", "category": "Business Intelligence" },
-  { "title": "Matplotlib", "imageSrc": "si:SiPlotly", "category": "Business Intelligence" },
+  { "title": "SSRS", "imageSrc": "fa:FaChartBar", "category": "Business Intelligence" },
+  { "title": "SSIS", "imageSrc": "fa:FaNetworkWired", "category": "Business Intelligence" },
 
   { "title": "TensorFlow", "imageSrc": "si:SiTensorflow", "category": "Machine Learning" },
   { "title": "PyTorch", "imageSrc": "si:SiPytorch", "category": "Machine Learning" },
   { "title": "Keras", "imageSrc": "si:SiKeras", "category": "Machine Learning" },
   { "title": "Numpy", "imageSrc": "si:SiNumpy", "category": "Machine Learning" },
   { "title": "Pandas", "imageSrc": "si:SiPandas", "category": "Machine Learning" },
+  { "title": "Jupyter", "imageSrc": "si:SiJupyter", "category": "Machine Learning" },
   { "title": "Scikit-learn", "imageSrc": "si:SiScikitlearn", "category": "Machine Learning" }
 ]

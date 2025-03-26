@@ -1,13 +1,26 @@
 [
   {
+    "role": "IT Automation and Website Development",
+    "organisation": "Thriving Elements",
+    "startDate": "Feb, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Building automation models for mentor-mentee onboarding and matching",
+      "Implementing CRM automation for session tracking and volunteer logging",
+      "Extracting metrics and integrating BI dashboards for enhanced productivity",
+      "Integrating API-driven solutions for website enhancements and data workflows"
+    ],
+    "imageSrc": "assets/history/thrivingelements.jpg"
+  },
+  {
     "role": "Research and Teaching Assistant",
     "organisation": "Pennsylvania State University",
     "startDate": "Jan, 2023",
     "endDate": "Dec, 2024",
     "experiences": [
-      "Preprocessed X-ray images and fine-tuned deep learning models for pneumonia detection.",
-      "Optimized an Image Segmentation website for better performance.",
-      "Assisted students with assignments, proctoring, and grading."
+      "Preprocessed X-ray images and fine-tuned deep learning models for pneumonia detection",
+      "Optimized an Image Segmentation website for better performance",
+      "Assisted students with assignments, proctoring, and grading"
     ],
     "imageSrc": "assets/history/pennstateuniversity.png"
   },
@@ -17,9 +30,9 @@
     "startDate": "Jan, 2023",
     "endDate": "Dec, 2024",
     "experiences": [
-      "Managed student records and improved mailroom database efficiency.",
-      "Built ETL pipelines and automated inventory tracking.",
-      "Developed Power BI dashboards for business insights."
+      "Managed student records and improved mailroom database efficiency",
+      "Built ETL pipelines and automated inventory tracking",
+      "Developed Power BI dashboards for business insights"
     ],
     "imageSrc": "assets/history/pennstateuniversity.png"
   },
@@ -29,11 +42,11 @@
     "startDate": "Nov, 2020",
     "endDate": "Dec, 2022",
     "experiences": [
-      "Optimized ETL pipelines for election data processing.",
-      "Enhanced RESTful API integrations for real-time data access.",
-      "Migrated multimedia data to a Knowledge Graph system.",
-      "Developed secure RESTful APIs for pension management.",
-      "Reduced cloud infrastructure costs with AWS microservices."
+      "Optimized ETL pipelines for election data processing",
+      "Enhanced RESTful API integrations for real-time data access",
+      "Migrated multimedia data to a Knowledge Graph system",
+      "Developed secure RESTful APIs for pension management",
+      "Reduced cloud infrastructure costs with AWS microservices"
     ],
     "imageSrc": "assets/history/cognizant.png"
   },
@@ -43,9 +56,9 @@
     "startDate": "Apr, 2019",
     "endDate": "Jun, 2019",
     "experiences": [
-      "Built predictive models for income forecasting.",
-      "Implemented recommendation algorithms for student engagement.",
-      "Created Tableau dashboards for marketing analytics."
+      "Built predictive models for income forecasting",
+      "Implemented recommendation algorithms for student engagement",
+      "Created Tableau dashboards for marketing analytics"
     ],
     "imageSrc": "assets/history/smartbridge.jpeg"
   }
